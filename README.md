@@ -14,7 +14,7 @@ Docker image is available:
 
 Or run locally as:
 
-``` sudo java -jar WebServer.jar ```
+``` sudo java -jar simpleweb.jar ```
 
 ## Contributing
 

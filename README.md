@@ -1,6 +1,8 @@
 # simpleweb-java
 
-This is an ultra-simple web server written in java. The docker version runs on alpine linux. It returns a welcome message and also print outs the server's IP address and listening TCP port. This is useful for demo purposes and load-balancing testing. It also looks for the environment variable $PORT0 and starts the server in that port if the variable exists. This is useful for deployment with Marathon and DC/OS.
+This is an ultra-simple web server written in java. It returns a welcome message and also print outs the server's IP address and listening TCP port. This is useful for demo purposes and load-balancing testing. It also looks for the environment variable $PORT0 and starts the server in that port if the variable exists. This is useful for deployment with Marathon and DC/OS.
+
+The docker version runs on alpine linux and is quite lightweight.
 
 ## Installation
 

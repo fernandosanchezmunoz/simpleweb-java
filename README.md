@@ -8,9 +8,11 @@ The JAR is available in the repository for direct deployment (for example, in Ma
 
 ## Usage
 
-NOTE: This requires root access in the server.
+Docker image is available:
 
-Download and run the jar as:
+``` fernandosanchez/simpleweb-java ```
+
+Or run locally as:
 
 ``` sudo java -jar WebServer.jar ```
 

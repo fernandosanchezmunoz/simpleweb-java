@@ -22,10 +22,6 @@ Download and run the jar as:
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-## History
-
-2016/05 - First version
-
 ## Credits
 
 Most of the code is taken from this example: http://www.java2s.com/Code/Java/Network-Protocol/ASimpleWebServer.htm

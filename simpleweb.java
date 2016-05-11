@@ -96,12 +96,12 @@ public class simpleweb {
         // this blank line signals the end of the headers
         out.println("");
         // Send the HTML page
-        out.println("<H1>Welcome to the simple web java server. It's simple. And it's written in java.</H2>");
+        out.println("<H1>a simple java web server.</H2>");
         // Send the IP address
-        out.println("This server's higher interface's IP address is:");
+        out.println("whose higher interface's IP address is:");
         out.println("<font color=\"red\">" + ip + "</font>");
         out.println("<br />"); //newline
-        out.println("This server is listening on port: ");
+        out.println("and who listens on port: ");
         out.println("<font color=\"red\">" + port0 + "</font>");
         out.flush();
         remote.close();
@@ -118,7 +118,7 @@ public class simpleweb {
    *            Command line parameters are not used.
    */
   public static void main(String args[]) {
-    WebServer ws = new WebServer();
+    simpleweb ws = new simpleweb();
     ws.start();
   }
 }

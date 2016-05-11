@@ -31,7 +31,6 @@ public class simpleweb {
 
     //Detect if the variable $PORT0 is defined. Start the server in that port if so
     String port0 = System.getenv("PORT0");
-    System.out.println("DEBUG: PORT0 is " + port0);
     if ((port0 == null) || port0.isEmpty()){
       port0 = "80";
     }

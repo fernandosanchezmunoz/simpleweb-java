@@ -26,8 +26,8 @@ Or run locally as:
 
 ## Credits
 
-Most of the code is taken from this example: http://www.java2s.com/Code/Java/Network-Protocol/ASimpleWebServer.htm
-The code for detecting the server's IP addresses is taken from here: http://stackoverflow.com/questions/8083479/java-getting-my-ip-address
+Most of the code is coming from: http://www.java2s.com/Code/Java/Network-Protocol/ASimpleWebServer.htm
+The code for detecting the server's IP addresses was found here: http://stackoverflow.com/questions/8083479/java-getting-my-ip-address
 
 ## License
 

@@ -4,7 +4,7 @@ This is an ultra-simple web server written in java. It returns a welcome message
 
 ## Installation
 
-The JAR is available in the repository for direct deployment (for example, in Marathon). Simply copy the JAR file to the destination and execute as root.
+Pull the docker image into docker or marathon. Or download and run the .jar file locally.
 
 ## Usage
 

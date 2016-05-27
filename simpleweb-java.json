@@ -22,6 +22,16 @@
       "forcePullImage": false
     }
   },
+  "healthChecks": [
+    {
+      "protocol": "TCP",
+      "portIndex": 0,
+      "gracePeriodSeconds": 10,
+      "intervalSeconds": 2,
+      "timeoutSeconds": 10,
+      "maxConsecutiveFailures": 10
+    }
+  ],
   "labels": {
     "HAPROXY_GROUP": "external"
   },

@@ -90,18 +90,20 @@ public class simpleweb {
         // Send the response
         // Send the headers
         out.println("HTTP/1.0 200 OK");
-        out.println("Content-Type: text/html");
         out.println("Server: Bot");
+        out.println("Content-Type: text/html");
         // this blank line signals the end of the headers
         out.println("");
         // Send the HTML page
-        out.println("<H1>a simple java web server.</H2>");
+        out.println("<!DOCTYPE html> <html> <body>");
+        out.println("<H1>a simple java web server.</H1>");
         // Send the IP address
         out.println("whose higher interface's IP address is:");
         out.println("<font color=\"red\">" + ip + "</font>");
         out.println("<br />"); //newline
         out.println("and who listens on port: ");
         out.println("<font color=\"red\">" + port0 + "</font>");
+        out.println("</body> </html>");
         out.flush();
         remote.close();
       } catch (Exception e) {
